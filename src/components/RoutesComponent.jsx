@@ -4,7 +4,7 @@ import Results from './Results';
 
 const RoutesComponent = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 mb-auto">
       <Routes>
         <Route path="/" element={<Navigate to="/search" />} />
         <Route path="/search" element={<Results />} />
